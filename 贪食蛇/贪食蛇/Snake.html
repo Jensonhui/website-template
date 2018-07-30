@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="Snake.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            width: 800px;
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        #map {
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: #ccc;
+            position: relative;
+
+        }
+
+        #map div {
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="score">游戏分数为：0</h1>
+    <div id="map"></div>
+</body>
+
+</html>
